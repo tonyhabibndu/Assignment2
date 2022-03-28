@@ -1,9 +1,9 @@
 <?php
 // Change the order in the header in order to swap the columns
 $headers = [
+    ["key" => "email", "label" => "Email"],
     ["key" => "lastName", "label" => "Last Name"],
     ["key" => "firstName", "label" => "First Name"],
-    ["key" => "email", "label" => "Email"],
     ["key" => "age", "label" => "Age"]
 ];
 # loop over the headers, then grab they key, and access the key in the body loop variable
